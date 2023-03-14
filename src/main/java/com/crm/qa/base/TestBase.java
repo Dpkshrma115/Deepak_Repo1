@@ -59,7 +59,7 @@ public class TestBase {
 			System.setProperty("webdriver.gecko.driver", "C:\\Users\\Deepak\\OneDrive\\Desktop\\chromedriver_win32\\geckodriver.exe");	
 			driver = new FirefoxDriver(); 
 		}
-		
+		// not working due to string error in browserName
 		/*switch (browserName) {
 		case "chrome":
 			ChromeOptions co = new ChromeOptions();
